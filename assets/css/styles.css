@@ -1,0 +1,227 @@
+/*------------------------text selection------------------------*/
+
+::-moz-selection {
+    color: #ffffff;
+    background: #6e14ef;
+}
+
+::selection {
+    color: #ffffff;
+    background: #6e14ef;
+}
+
+/*------------------------navigation bar------------------------*/
+
+.navbar-brand {
+    padding-right: 8px;
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 2px;
+    align-self: center;
+}
+
+/*------------------------home page------------------------*/
+
+.home-content {
+    padding-top: 60px;
+}
+
+@media (max-width: 991px) {
+    .home-content .phone-mockup {
+        margin: 40px;
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home-content .phone-mockup {
+        margin: 40px 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-content .phone-mockup {
+        margin: 40px;
+    }
+}
+
+.home-content .phone-mockup img {
+    width: 100%;
+}
+
+.home-content .jumbotron {
+    background-color: #ffffff;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.home-content .jumbotron p {
+    padding-top: 8px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.home-content .jumbotron a {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.btn-primary {
+    background-color: #6e14ef;
+    border-color: #6110d7;
+}
+
+.btn-primary:hover {
+    background-color: #6211d8;
+    border-color: #540fb8;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #6211d8;
+    border-color: #6211d8;
+}
+
+.btn-outline-primary {
+    color: #6e14ef;
+    border-color: #6e14ef;
+}
+
+.btn-outline-primary:hover {
+    color: #6e14ef;
+    background-color: #f6f6f6;
+    border-color: #540fb8;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #6e14ef;
+    background-color: #f6f6f6;
+    border-color: #6211d8;
+}
+
+/*------------------------instructions page------------------------*/
+
+.instructions-content {
+    padding-top: 100px;
+}
+
+.installation,
+.registration,
+.overview,
+.conclusion {
+    padding-bottom: 24px;
+}
+
+.installation h3,
+.registration h3,
+.overview h3 {
+    padding-bottom: 24px;
+}
+
+/*------------------------others page------------------------*/
+
+.others-content {
+    padding-top: 100px;
+}
+
+.others-content h3 {
+    padding-bottom: 24px;
+}
+
+.others-content span {
+    margin-right: 10px;
+}
+
+.others-content img {
+    margin-top: 36px;
+    margin-bottom: 36px;
+    width: 100%;
+}
+
+/*------------------------footer------------------------*/
+
+.footer {
+    background-color: #f6f6f6;
+    margin-top: 40px;
+    padding: 35px 0;
+    color: #4b4c4d;
+}
+
+.footer h3 {
+    color: #767777;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #8a8a8a;
+}
+
+@media (max-width:767px) {
+    .footer .item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer .item.social {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .footer .item.social {
+        text-align: center;
+    }
+}
+
+.footer .item.social>a {
+    margin-top: 0px;
+    margin-left: 10px;
+    border: 0px;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    color: inherit;
+    opacity: 0.75;
+}
+
+@media (max-width: 767px) {
+    .footer .item.social>a {
+        padding-right: 16px;
+    }
+}
+
+@media (max-width:767px) {
+    .footer .item.social>a {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:991px) {
+    .footer .item.social>a {
+        margin-top: 40px;
+    }
+}
+
+.footer .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer .copyright {
+    color: #8a8a8a;
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
