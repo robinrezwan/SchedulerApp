@@ -79,11 +79,17 @@
     border-color: #540fb8;
 }
 
+.btn-primary.focus,
+.btn-primary:focus {
+    background-color: #6211d8;
+    border-color: #540fb8;
+}
+
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
     background-color: #6211d8;
-    border-color: #6211d8;
+    border-color: #540fb8;
 }
 
 .btn-outline-primary {
@@ -97,12 +103,19 @@
     border-color: #540fb8;
 }
 
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+    color: #6e14ef;
+    background-color: #f6f6f6;
+    border-color: #540fb8;
+}
+
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #6e14ef;
     background-color: #f6f6f6;
-    border-color: #6211d8;
+    border-color: #540fb8;
 }
 
 /*------------------------instructions page------------------------*/
@@ -199,19 +212,8 @@
 
 @media (max-width: 767px) {
     .footer .item.social>a {
-        padding-right: 16px;
-    }
-}
-
-@media (max-width:767px) {
-    .footer .item.social>a {
         margin-top: 10px;
-    }
-}
-
-@media (max-width:991px) {
-    .footer .item.social>a {
-        margin-top: 40px;
+        margin-right: 10px;
     }
 }
 
