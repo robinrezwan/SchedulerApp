@@ -1,3 +1,15 @@
+/*------------------------body------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 /*------------------------text selection------------------------*/
 
 ::-moz-selection {
@@ -27,6 +39,7 @@
 
 .home-content {
     padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 @media (max-width: 991px) {
@@ -122,6 +135,7 @@
 
 .instructions-content {
     padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .installation,
@@ -141,6 +155,7 @@
 
 .others-content {
     padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .others-content h3 {
@@ -160,9 +175,9 @@
 /*------------------------footer------------------------*/
 
 .footer {
-    background-color: #f6f6f6;
-    margin-top: 40px;
+    margin-top: auto;
     padding: 35px 0;
+    background-color: #f6f6f6;
     color: #4b4c4d;
 }
 
