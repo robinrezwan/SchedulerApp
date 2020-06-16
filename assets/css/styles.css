@@ -38,6 +38,7 @@ body {
 /*------------------------home page------------------------*/
 
 .home-content {
+    padding-top: 60px;
     padding-bottom: 40px;
 }
 
@@ -133,7 +134,8 @@ body {
 /*------------------------instructions page------------------------*/
 
 .instructions-content {
-    padding: 40px 0;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .installation,
@@ -152,7 +154,8 @@ body {
 /*------------------------others page------------------------*/
 
 .others-content {
-    padding: 40px 0;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .others-content h3 {
