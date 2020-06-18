@@ -138,12 +138,11 @@ body {
     padding-bottom: 40px;
 }
 
-.overview,
-.conclusion {
+.overview-content section {
     padding-bottom: 24px;
 }
 
-.overview h3 {
+.overview-content h3 {
     padding-bottom: 24px;
 }
 
@@ -154,15 +153,11 @@ body {
     padding-bottom: 40px;
 }
 
-.installation,
-.registration,
-.caution {
+.instructions-content section {
     padding-bottom: 24px;
 }
 
-.installation h3,
-.registration h3,
-.caution h3 {
+.instructions-content h3 {
     padding-bottom: 24px;
 }
 
