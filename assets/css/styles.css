@@ -146,6 +146,11 @@ body {
     padding-bottom: 24px;
 }
 
+.overview-content .overview-images {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
 /*------------------------instructions page------------------------*/
 
 .instructions-content {
