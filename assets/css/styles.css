@@ -131,6 +131,22 @@ body {
     border-color: #540fb8;
 }
 
+/*------------------------overview page------------------------*/
+
+.overview-content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.overview,
+.conclusion {
+    padding-bottom: 24px;
+}
+
+.overview h3 {
+    padding-bottom: 24px;
+}
+
 /*------------------------instructions page------------------------*/
 
 .instructions-content {
@@ -140,14 +156,13 @@ body {
 
 .installation,
 .registration,
-.overview,
-.conclusion {
+.caution {
     padding-bottom: 24px;
 }
 
 .installation h3,
 .registration h3,
-.overview h3 {
+.caution h3 {
     padding-bottom: 24px;
 }
 
